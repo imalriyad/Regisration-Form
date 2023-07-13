@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+    font-weight: 400;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.f-tittle{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.main-container{
+    text-align: center;
+    width: 420px;
+    height: 480px;
+    padding: 55px;
+    background: rgba(7, 8, 65, 0.904);
+    color: aliceblue;  
+    border-radius: 5px; 
+    position: relative;
+}
+.input-field{
+    width: 350px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    border: none;
+    outline: none;
+}
+ #checkbox{
+    height: 12px;
+    width: 12px;
+    
+} 
+.chk-text{
+ margin-left: 10px;
+ font-size:14px;
+ font-weight: 400;
+ color: rgb(219, 219, 219);
+}
+#btn{
+    margin-top: 40px;
+    background-color: rgba(76, 185, 48, 0.884);
+    border: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 12px 40px;
+    /* position: absolute;
+    bottom: 30px;
+    right: 80px; */
+}
+#btn:hover{
+    background: rgb(46, 153, 4);color: rgb(241, 240, 240) ;
+}
